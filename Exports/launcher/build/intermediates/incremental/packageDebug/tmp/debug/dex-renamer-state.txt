@@ -1,0 +1,4 @@
+#Thu May 14 11:00:46 ADT 2020
+base.0=C\:\\Users\\Kyle\\Documents\\Unity Projects\\CastleChess\\Exports\\launcher\\build\\intermediates\\dex\\debug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

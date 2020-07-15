@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4ca25d97d4f6f24aa9d5d8bb6c49246, type: 3}
+  m_Name: Examplee
+  m_EditorClassIdentifier: 
+  defaultStats:
+    maxStamina:
+      currentValue: 5
+    maxHappiness:
+      currentValue: 5
+    maxHP:
+      currentValue: 5
+    attack:
+      currentValue: 1
+    luck:
+      currentValue: 1
+  walkAnimation:
+    animationName: Walk
+    spriteFrameArray:
+    - frameLength: 0.4
+      frameImg: {fileID: -7916364283255036870, guid: 1796e52d5b4c15f47a37a8ac39a18565,
+        type: 3}
+    - frameLength: 0.4
+      frameImg: {fileID: -9035775813294151552, guid: 1796e52d5b4c15f47a37a8ac39a18565,
+        type: 3}
+  attackAnimation:
+    animationName: Attack
+    spriteFrameArray:
+    - frameLength: 0.2
+      frameImg: {fileID: -7916364283255036870, guid: 1796e52d5b4c15f47a37a8ac39a18565,
+        type: 3}
+    - frameLength: 0.2
+      frameImg: {fileID: 7531494328828380761, guid: 1796e52d5b4c15f47a37a8ac39a18565,
+        type: 3}
+  eggAnimation:
+    animationName: EggIdle
+    spriteFrameArray:
+    - frameLength: 1
+      frameImg: {fileID: 2201892001440694392, guid: 1796e52d5b4c15f47a37a8ac39a18565,
+        type: 3}
+  hatchTime: 300

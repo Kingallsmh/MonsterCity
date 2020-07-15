@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4ca25d97d4f6f24aa9d5d8bb6c49246, type: 3}
+  m_Name: Deeno
+  m_EditorClassIdentifier: 
+  colRadius: 5
+  defaultStats:
+    maxStamina:
+      currentValue: 6
+    maxHappiness:
+      currentValue: 3
+    maxHP:
+      currentValue: 4
+    attack:
+      currentValue: 3
+    luck:
+      currentValue: 1
+  walkAnimation:
+    animationName: Walk
+    spriteFrameArray:
+    - frameLength: 0.6
+      frameImg: {fileID: -8558914802129643884, guid: 1796e52d5b4c15f47a37a8ac39a18565,
+        type: 3}
+    - frameLength: 0.6
+      frameImg: {fileID: -1667400606218045720, guid: 1796e52d5b4c15f47a37a8ac39a18565,
+        type: 3}
+  attackAnimation:
+    animationName: Attack
+    spriteFrameArray:
+    - frameLength: 0.2
+      frameImg: {fileID: -8558914802129643884, guid: 1796e52d5b4c15f47a37a8ac39a18565,
+        type: 3}
+    - frameLength: 0.2
+      frameImg: {fileID: 1663324328777252483, guid: 1796e52d5b4c15f47a37a8ac39a18565,
+        type: 3}
+  eggAnimation:
+    animationName: EggIdle
+    spriteFrameArray:
+    - frameLength: 1
+      frameImg: {fileID: 2201892001440694392, guid: 1796e52d5b4c15f47a37a8ac39a18565,
+        type: 3}
+  hatchTime: 500
